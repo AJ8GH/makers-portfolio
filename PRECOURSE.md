@@ -34,4 +34,4 @@ Around the Makers Precourse curriculum I also completed the following projects, 
 
 ### Reflection
 
-I truly enjoyed immersing myself in the Makers precourse. The precourse is part-time, but I made the choice to dedicate my spare time to learning and improving in every aspect I could, focusing on testing using rspec, practicing TDD, applying OO design principles and picking up some html and CSS basics. I also learnt how to 'badge-up' my READMEs, becoming confident in setting up Travis CI, Coveralls and CodeClimate. The full-time course begins in 4 days (at the time of writing) and I can't wait!  
+I enjoyed immersing myself in the Makers precourse. The precourse is part-time, but I made the choice to dedicate my spare time to learning and improving in every aspect I could, focusing on testing using rspec, practicing TDD, applying OO design principles and picking up some html and CSS basics. I also learnt how to 'badge-up' my READMEs, becoming confident in setting up Travis CI, Coveralls and CodeClimate. The full-time course begins in 4 days (at the time of writing) and I can't wait!  
