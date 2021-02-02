@@ -2,7 +2,7 @@
 
 ## skills-workshops/test_driven_development/debugging_1
 
-### Covered:
+### Topics covered:
 
 - Explored different ways to debug code.
 - Learned the 'tighten-the-loop' process
