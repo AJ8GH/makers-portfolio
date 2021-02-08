@@ -1,27 +1,38 @@
 # Week 1
 
-## Achievements & key take aways
+## Goals
+- [x] Master TDD using RSpec
+- [x] become confident in mocks: using different kinds of stubs and doubles, when to use them and why
+- [x] understand best practices for when and how to use subject, let, before and after effectively
+- [x] utilise the above methods to write, robust and DRY tests
+- [x] Become proficient and comfortable in pair programming
+- [x] Learn how to use Github collaboration effectively
+- [x] Decide on which driver navigator style works for me
+- [x] be confident in achieving the maximum possible in the given time in any pairing session
 
-### Goals
-- Master TDD using RSpec
-  - become confident in mocks: using all different kinds of stubs and doubles, when to use them and why
-  - understand best practices for when and how to use subject, let, before and after effectively
-  - utilise the above methods to write, robust and DRY tests
+## Skills learned and applied
 
-- Learn the basics of writing Ruby Webapps
-  - work through the Sinatra pills and
+- Encapsulation
+- SRP
+- TDD
+- Mocking
+- Domain Modelling
+- BDD
+- Sequence Diagrams
 
-- Become proficient and comfortable in pair programming
-  - Learn how to use Github collaboration effectively
-  - Decide on which driver navigator style works for me
-  - be confident in achieving the maximum possible in the given time in any pairing session
+## Challenges
 
-#### Morning Goal : Wednesday 3/2/21
+#### [AIRPORT CHALLENGE](https://github.com/AJ8GH/airport_challenge)
 
-- **Goal:** understand mocks, doubles and stubs properly in rspec. when, why and how to apply them properly
-- **How:** work through rspec udemy course, apply the concepts in practice projects, research documentation
-- **Evidence:** whilst test driving a project, I’ll be able to  write test suite using and applying each of these concepts correctly and confidently
+Our first weekend challenge! Built a program for air traffic control, complete with safety guards and its own weather system.
 
-### Skills learned and applied
+#### [BORIS BIKES](https://github.com/AJ8GH/boris-bikes)
 
--
+The Pair programming challenge for the week was focused on building a system for docking, releasing, tracking and maintaining the network of so called Boris Bikes across London
+
+### Skills Workshops / exercises
+
+Debugging
+- debugging fizzbuzz
+
+TDD
