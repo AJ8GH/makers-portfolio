@@ -1,6 +1,4 @@
-# Week 2 Reflections
-
-# Week 1
+# Week 2
 
 ## Goals
 - [ ] Understand and apply dependency injection and be able to explain it to others in my cohort
@@ -11,26 +9,98 @@
 
 ## Skills learned and applied
 
+- Dependency injection
+- All skills from week 1
+- Code quality:
+  - Mutation testing - ensuring test are actually testing desired behaviour
+  - Readability & transparency
+  - Complexity reduction
+  - Applying metrics tools - linting, complexity, code smells
+- Domain modelling
+- Sequence diagramming
+
+## Practicals completed
+
+- Dependency injection - worked through 3 exercises, refactoring multiple classes through dependency injection to be testable in isolation: [dependency injection](https://github.com/AJ8GH/object-oriented-design/tree/main/dependency-injection)
+- Building rspec - created a working version of Rspec from scratch using Ruby: [homemade rspec](https://github.com/AJ8GH/homemade-rspec)
+- Testing relationships - exercise in testing class interation, through desired and expected behaviours [testing relationships](https://github.com/AJ8GH/object-oriented-design/tree/main/testing-relationships-between-classes)
+- Testing behaviour not state - learnt to test for desired behaviour, over state and implementation: [testing behaviour](https://github.com/AJ8GH/object-oriented-design/tree/main/testing-behaviour-not-state/tic-tac-toe)
+
+
+## still to cover:
+- Polymorphism
+- Duck typing
 - Encapsulation
-- SRP
-- TDD
-- Mocking
-- Domain Modelling
-- BDD
-- Sequence Diagrams
+- Readability
 
 ## Challenges
 
-#### [OYSTERCARD]()
+### [OYSTERCARD](https://github.com/AJ8GH/oystercard)
 
-Weekend challenge number 2! Our previous client TFL were clearly impressed with our Boris Bikes system. they've now asked to us to design London's Oystercard System.
+Weekend challenge number 2! Our previous client TFL were clearly impressed with our Boris Bikes system. They've now asked to us to design the system for London's Oystercard. This week pairing feels easier and smoother, our coding and communication skills seem to be improving. Techniques applied in the challenge are again focused on TDD and OOD principles, as well as realising a client spec using BDD - domain modelling user stories.   
 
-#### [TAKEAWAY]()
+### [TAKEAWAY]()
 
 The Pair programming challenge for the week
 
-### Skills Workshops / exercises
 
-OOD
+## Skills Workshops / exercises
 
-TDD
+### Domain Modelling Workshop
+
+- Don't get too caught up in building perfect domain model, or designing perfect structure
+- It will change, classes and messages can be added or removed later on
+- Time has already been saved - quicker and cheaper to change diagrams than code
+
+## [diagram.codes](https://playground.diagram.codes/d/sequence)
+
+### Syntax
+
+- `->` message
+- `-->` return value of message
+- `alias bank="Bank"` assign variable name bank with value of Bank class
+- `user->bank: "deposit(amount)"` user send deposit message to bank with argument `amount`
+- `bank->bank: update_balance(amount)` internal procedure / method call
+
+### Bank Account
+
+```flow
+alias user="User"
+alias bank="BankAccount "
+alias transaction="Transaction"
+
+user->bank: "opens a bank account: BankAccount.new"
+
+user->bank: "makes a deposit: bank_account.deposit(50)"
+  bank->bank: "@balance += amount"
+
+  bank->transaction: "transaction.new(deposit)"
+  transaction-->bank: "new instance of trasaction"
+  bank->bank: "@transactions << transaction"
+
+user->bank: "makes a withdrawal; bank_account.withdraw(30)"
+  bank->bank: "@balance -= amount"
+
+user->bank: "requests to view balance: print_statement()"
+  bank-->user: "displays balance: String"
+```
+
+### Notebook
+
+```flow
+alias user="User"
+alias notebook="NoteBook"
+alias note="Note"
+
+user->notebook: "NoteBook.new"
+notebook-->user: "notebook instance"
+
+user->notebook: "add_note(info: 'info', tag: 'tag')"
+notebook->note: "Note.new(info)"
+note-->notebook: "new Note instance"
+notebook->notebook: "@notes << note"
+
+user->notebook: "search(tag)"
+notebook->notebook: "find_notes(tag)"
+notebook-->user: "desired notes"
+```
