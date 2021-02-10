@@ -24,13 +24,17 @@
 
 ## Challenges
 
-#### [AIRPORT CHALLENGE](https://github.com/AJ8GH/airport_challenge)
-
-Our first weekend challenge! Built a program for air traffic control, complete with safety guards and its own weather system.
-
 #### [BORIS BIKES](https://github.com/AJ8GH/boris-bikes)
 
-The Pair programming challenge for the week was focused on building a system for docking, releasing, tracking and maintaining the network of so called Boris Bikes across London.
+The Pair programming challenge for the week was focused on building a system for docking, releasing, tracking and maintaining the network of so called Boris Bikes across London. Techniques applied:
+- TDD - writing our tests first and following a rigorous red green refactor cycle
+- BDD - translating user stories into working models through domain modelling
+- OOD - taking a critical view on design concerns, adhering to core principles such as SRP, Encapsulation, and Liskov substitution.
+- Mocking - using doubles and stubs to test to interacting classes in isolation
+
+#### [AIRPORT CHALLENGE](https://github.com/AJ8GH/airport_challenge)
+
+Our first weekend challenge! Built a program for air traffic control, complete with safety guards and its own weather system. A natural follow on from Boris bikes with some similar problems to solve and technqiues applied. One of the most interesting things was deciding how to simulating random weather conditions and then ensure that the weather was 'stubbed' sunny on all the tests to prevent unexpected failures (apart from the ones testing that the weather guard works correctly). It really helped solidify the concept of using doubles and also was great practice for building things with objects.
 
 ## Debugging Workshop
 

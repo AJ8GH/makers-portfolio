@@ -48,6 +48,10 @@ The Pair programming challenge for the week
 
 ### Domain Modelling Workshop
 
+One of the most valuable tools picked up this week has actually been domain modelling using sequence diagrams. It's added a lot more structure to my planning and design process and has really helped crystalise my thoughts before diving into coding and writing tests.
+
+Key take aways:
+
 - Don't get too caught up in building perfect domain model, or designing perfect structure
 - It will change, classes and messages can be added or removed later on
 - Time has already been saved - quicker and cheaper to change diagrams than code
@@ -62,7 +66,7 @@ The Pair programming challenge for the week
 - `user->bank: "deposit(amount)"` user send deposit message to bank with argument `amount`
 - `bank->bank: update_balance(amount)` internal procedure / method call
 
-### Bank Account
+### Bank Account Example
 
 ```flow
 alias user="User"
@@ -85,7 +89,7 @@ user->bank: "requests to view balance: print_statement()"
   bank-->user: "displays balance: String"
 ```
 
-### Notebook
+### Notebook Exercise
 
 ```flow
 alias user="User"
