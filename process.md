@@ -36,4 +36,4 @@
 ## Problem Solving
 1. write the problem out in pseudocode
 2. break large steps down into smaller ones
-3. 
+3.

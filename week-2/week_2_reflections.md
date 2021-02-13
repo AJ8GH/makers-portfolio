@@ -37,11 +37,11 @@
 
 ### [OYSTERCARD](https://github.com/AJ8GH/oystercard)
 
-Weekend challenge number 2! Our previous client TFL were clearly impressed with our Boris Bikes system. They've now asked to us to design the system for London's Oystercard. This week pairing feels easier and smoother, our coding and communication skills seem to be improving. Techniques applied in the challenge are again focused on TDD and OOD principles, as well as realising a client spec using BDD - domain modelling user stories.   
+Pairing challenge number 2! Our previous client TFL were clearly impressed with our Boris Bikes system. They've now asked to us to design the system for London's Oystercard. This week pairing feels easier and smoother, our coding and communication skills seem to be improving. Techniques applied in the challenge are again focused on TDD and OOD principles, as well as realising a client spec using BDD - domain modelling user stories.   
 
-### [TAKEAWAY]()
+### [TAKEAWAY](https://github.com/AJ8GH/takeaway-challenge)
 
-The Pair programming challenge for the week
+The weekend challenge for the week
 
 
 ## Skills Workshops / exercises
