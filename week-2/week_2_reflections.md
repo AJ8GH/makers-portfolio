@@ -18,6 +18,7 @@
   - Applying metrics tools - linting, complexity, code smells
 - Domain modelling
 - Sequence diagramming
+- Twilio Gem - SMS Messaging
 
 ## Practicals completed
 
@@ -25,13 +26,12 @@
 - Building rspec - created a working version of Rspec from scratch using Ruby: [homemade rspec](https://github.com/AJ8GH/homemade-rspec)
 - Testing relationships - exercise in testing class interation, through desired and expected behaviours [testing relationships](https://github.com/AJ8GH/object-oriented-design/tree/main/testing-relationships-between-classes)
 - Testing behaviour not state - learnt to test for desired behaviour, over state and implementation: [testing behaviour](https://github.com/AJ8GH/object-oriented-design/tree/main/testing-behaviour-not-state/tic-tac-toe)
-
+- Polymorphism & Duck typing
+- Encapsulation
 
 ## still to cover:
-- Polymorphism
-- Duck typing
-- Encapsulation
-- Readability
+
+- Refactoring
 
 ## Challenges
 
