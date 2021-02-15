@@ -14,7 +14,7 @@ Highlight - fixed a bug in the Puma gem, which was preventing it from running wi
 - MVC: organising code into model-view-controller structure
 - HTML: building web pages using html
 - CSS: applying styling to web pages
-- erb: combining HTML and CSS with ruby code using erb 
+- erb: combining HTML and CSS with ruby code using erb
 
 ## Pairing challenge
 
