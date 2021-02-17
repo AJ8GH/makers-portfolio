@@ -2,10 +2,13 @@
 
 Started the week with learning about building basic web applications
 
-Highlight - fixed a bug in the Puma gem, which was preventing it from running with Sinatra using Shotgun. Submitted a pull request with the gem's repo. Waiting to see if it will be accepted...
+Debugging - fixed a bug which was preventing puma from running with Sinatra using Shotgun. Submitted a pull request with the gem's repo.
 
 ## Practicals completed
 - Sinatra pills
+- Servers 1
+- Clients 1
+- HTTP Servers
 
 ## Key Skills learned
 - Setting up a web app with Sinatra
