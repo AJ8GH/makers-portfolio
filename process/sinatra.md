@@ -33,3 +33,12 @@
 12. set up config:
   - `require './app'`
   - `run <AppClassName>`
+13. create README:
+  - `touch README.md`
+14. initialize git/github repo:
+  - `git init`
+  - `git add .`
+  - `git commit -m 'first commit'`
+  - create new github repo
+  - `git remote add origin <github-repo-SSH-address>`
+  - `git push -u origin main`
