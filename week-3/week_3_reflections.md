@@ -23,9 +23,9 @@ Debugging - fixed a bug which was preventing puma from running with Sinatra usin
 - storing class instance within class instance variables to allow the object to be visible across the entire scope of an app
 - using layouts to wrap erb templates and link css stylesheets
 
-## Mini project
+## Mini project - [birthday greeter app](github.com/AJ8GH/birthday-app)
 
- Flying solo - built a [birthday greeter](github.com/AJ8GH/birthday-app) app, applying many of the techniques and skills picked up in this week's workshops, challenges and learning materials. Whilst the finished product doesn't look terrifically complicated, it was deceptively tricky and was great practice in applying the OOD principles I've learned in weeks 1 & 2 and combining those with MVC principles in week 3. Plus some good HTML and CSS practice!
+ Flying solo - built a `Birthday greeter app`, applying many of the techniques and skills picked up in this week's workshops, challenges and learning materials. Whilst the finished product doesn't look terrifically complicated, it was deceptively tricky and was great practice in applying the OOD principles I've learned in weeks 1 & 2 and combining those with MVC principles in week 3. Plus some good HTML and CSS practice!
 
 ## Pairing challenge
 
