@@ -9,6 +9,7 @@ Debugging - fixed a bug which was preventing puma from running with Sinatra usin
 - Servers 1
 - Clients 1
 - HTTP Servers
+- Birthday greeter app
 
 ## Key Skills learned
 - Setting up a web app with Sinatra
@@ -18,14 +19,30 @@ Debugging - fixed a bug which was preventing puma from running with Sinatra usin
 - HTML: building web pages using html
 - CSS: applying styling to web pages
 - erb: combining HTML and CSS with ruby code using erb
+- Sinatra project structure: learning the more complicated setup required for getting sinatra web apps up and running, as well as important naming and project folder structure conventions
+- storing class instance within class instance variables to allow the object to be visible across the entire scope of an app
+- using layouts to wrap erb templates and link css stylesheets
+
+## Mini project
+
+ Flying solo - built a [birthday greeter](github.com/AJ8GH/birthday-app) app, applying many of the techniques and skills picked up in this week's workshops, challenges and learning materials. Whilst the finished product doesn't look terrifically complicated, it was deceptively tricky and was great practice in applying the OOD principles I've learned in weeks 1 & 2 and combining those with MVC principles in week 3. Plus some good HTML and CSS practice!
 
 ## Pairing challenge
 
 ### [Battle](https://github.com/AJ8GH/battle)
 
+Applying our learnings in our weekly pairing challenge - working together to learn how servers work, the different kinds of HTTP requests. How we can apply this knowledge with our Ruby programming skills to build simple web-apps
+
 ## Weekend Challenge
 
 ### [Rock Paper Scissors](https://github.com/AJ8GH/rps-challenge)
+
+The weekend challenge for our 3rd week is as always a follow on from the week's learning topics and goals. It's an independent project which we work through without peer or coach help. My approach here is to apply some of the advanced topics from the battle app project early on - such as using class instance variables to store the instance of a class - and avoid the use of evil $global variables altogether.
+
+#### goals:
+- apply strict use of MVC structure, keeping SRP, encapsulation and cohesion high
+- keep controllers and views as skinny as possible, extracting all logic to the model
+- use layouts to wrap my erb templates and apply styling for a sexy interface
 
 ## HTTP Skills workshop
 
