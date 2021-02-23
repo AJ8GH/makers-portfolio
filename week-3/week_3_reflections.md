@@ -22,6 +22,9 @@ Debugging - fixed a bug which was preventing puma from running with Sinatra usin
 - Sinatra project structure: learning the more complicated setup required for getting sinatra web apps up and running, as well as important naming and project folder structure conventions
 - storing class instance within class instance variables to allow the object to be visible across the entire scope of an app
 - using layouts to wrap erb templates and link css stylesheets
+- Deploying apps through Heroku cloud platorm:
+  - [Rock Paper Scissors](https://fast-fortress-79695.herokuapp.com/)
+  - [Birthday Greeter](https://peaceful-headland-95572.herokuapp.com/)
 
 ## Mini project - [birthday greeter app](github.com/AJ8GH/birthday-app)
 
