@@ -14,8 +14,11 @@ Debugging - fixed a bug which was preventing puma from running with Sinatra usin
 ## Key Skills learned
 - Setting up a web app with Sinatra
 - Setting up testing infrastructure for web apps using capybara and rspec
-- Using webdriver with capybara
-- MVC: organising code into model-view-controller structure
+- Using webdriver with capybara to automate web app testing
+- HTTP requests: understanding the different requests, how they are structured, what they do, the flow of information
+- Servers: understanding the roles of servers and middleware, and how they work under the hood. [Worked on this through this practical](https://github.com/AJ8GH/servers)
+- Sessions: using sessions to persist data between requests
+- MVC: organising code into model-view-controller structure, separation of concerns
 - HTML: building web pages using html
 - CSS: applying styling to web pages
 - erb: combining HTML and CSS with ruby code using erb
@@ -40,7 +43,7 @@ Applying our learnings in our weekly pairing challenge - working together to lea
 
 ### [Rock Paper Scissors](https://github.com/AJ8GH/rps-challenge)
 
-The weekend challenge for our 3rd week is as always a follow on from the week's learning topics and goals. It's an independent project which we work through without peer or coach help. My approach here is to apply some of the advanced topics from the battle app project early on - such as using class instance variables to store the instance of a class - and avoid the use of evil $global variables altogether.
+The weekend challenge for our 3rd week is as always a follow on from the week's learning topics and goals. It's an independent project which we work through without peer or coach help. My approach here is to apply some of the advanced topics from the battle app project early on - such as using class instance variables to store the instance of a class.
 
 #### goals:
 - apply strict use of MVC structure, keeping SRP, encapsulation and cohesion high
