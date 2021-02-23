@@ -1,4 +1,4 @@
-## Week 4
+# Week 4
 
 By the end of the week all developers can:
 
@@ -6,23 +6,23 @@ By the end of the week all developers can:
 * Follow an effective debugging process for database applications
 * Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
-### Challenges
+## Challenges
 
 * [Afternoons - Bookmark Manager](https://github.com/makersacademy/course/blob/master/bookmark_manager/00_challenge_map.md)
 * [End of unit - Chitter](https://github.com/makersacademy/chitter-challenge)
 
-### Practicals
+## Practicals
 
 * [Entity Relationship Diagrams](https://github.com/makersacademy/skills-workshops/blob/master/practicals/databases/entity_relationship_diagrams.md)
 * [SQLZoo](https://sqlzoo.net/)
 * [SQL Murder Mystery](https://mystery.knightlab.com/)
 * [Build a diary app (small project)](https://github.com/makersacademy/skills-workshops/blob/master/practicals/databases/daily_diary_app.md)
 
-### Resources
+## Resources
 
 * [Technical Learning Resources](https://airtable.com/shrGPJMHNfr7p9iAo/tblokmw6yNUO75ge6?blocks=hide)
 
-### Skills workshops
+## Skills workshops
 
 * [CRC Cards](https://github.com/makersacademy/skills-workshops/tree/master/how_databases_work/domain_modelling_student_directory_using_crc_cards)
 * [REST](https://github.com/sjmog/rest)
