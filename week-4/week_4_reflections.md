@@ -12,6 +12,7 @@ This week is centered around databases. We are working with PostgreSQL and learn
 - ORM - using object relational mapping to represent data in objects
 - Environment Variables - setting up 'test' and 'development' environments and using them to define which database a connection is made to
 - Rake tasks - using rake tasks to create and truncate database tables, and connect to the correct database in the correct environment
+- Password encryption - using BCrypt to store passwords securely
 - REST: RESTful routing, RESTful APIs
 - Deploying web apps through Heroku
 - Linking rake tasks and environments with travis-ci and heroku deployment
@@ -25,3 +26,7 @@ In progress: [Daily Dairy App](https://github.com/AJ8GH/daily-diary-app)
 ## Challenges
 
 Afternoon Challenge:
+[Bookmark Manager](https://github.com/AJ8GH/bookmark-manager)
+
+Weekend Challenge:
+[Chitter](https://github.com/AJ8GH/chitter-challenge)
