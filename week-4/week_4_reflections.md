@@ -25,8 +25,13 @@ In progress: [Daily Dairy App](https://github.com/AJ8GH/daily-diary-app)
 
 ## Challenges
 
-Afternoon Challenge:
+### Afternoon Challenge:
+
 [Bookmark Manager](https://github.com/AJ8GH/bookmark-manager)
+
+The task this week An introduction to databases in web apps. Applying SQL querying to advanced concepts such as object relational mapping and many to many relationships.
 
 Weekend Challenge:
 [Chitter](https://github.com/AJ8GH/chitter-challenge)
+
+Building a working clone of Twitter. Consolidation of the topics applied throughout the week.
