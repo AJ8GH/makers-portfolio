@@ -29,3 +29,7 @@ Skills applied:
 [Bowling in JavaScript](https://github.com/AJ8GH/bowling-challenge)
 
 Bowling scoring again! Applying the week's learning to a familiar foe.
+- The logic / domain model was written in JavaScript
+- Used JQuery to manipulate the DOM
+- Used Karma, chrome-launcher and jamsine-node to set up CI and run automated testing using travis
+- Used Karma, Coveralls and nyc to run test coverage and send the results to coveralls
